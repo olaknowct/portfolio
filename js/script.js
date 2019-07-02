@@ -91,6 +91,7 @@ $('.nav-icon').click(function() {
     $(".titleMessage").fadeOut("slow");
     $(".about_me").fadeOut("slow");
     $(".skills_part").fadeOut("slow");
+    $(".porfolio_part").fadeOut("slow");
 
 })
 
@@ -99,4 +100,5 @@ $('.modal-close').click(function() {
     $(".titleMessage").fadeIn(1500);
     $(".about_me").fadeIn(1500);
     $(".skills_part").fadeIn(1500);
+    $(".porfolio_part").fadeIn(1500);
 })
